@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,a,ul,li,img{
+    margin: 0;
+    padding: 0;
+}
+/* nav bar start */
+#logo-menu{
+    height: 100px;
+}
+.content{
+    width: 1300px;
+    margin: 0 auto;
+}
+.logo-menu{
+    margin-top: 20px;
+}
+.logo{
+    float: left;
+}
+.logo i{
+    font-size: 50px;
+}
+.logo h4{
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    font-style: italic;
+     font-weight: 900;
+}
+
+.menu nav{
+    position: relative;
+    float: left;
+    left: 700px;
+    top: 10px;
+}
+.menu ul{
+    display: flex;
+    position: absolute;
+}
+.menu li{
+    list-style: none;
+    margin-left: 40px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.joining-us{
+    background-color:rgb(249, 165, 26) ;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+/* nav bar end */
+
+ /* from section start */
+#form{
+    height: 400px;
+    
+    
+}
+.form-parants{
+    width: 430px;
+    position: relative;
+    left: 490px;   
+    height: 460px;
+   border: 1.5px solid rgb(182, 182, 182) ;
+    
+}
+.form-child{
+    position: absolute;
+    left: 45px;
+}
+.form-child h3{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.form-child input{
+    padding: 20px 80px;
+    border: none;
+    border-bottom: 2px solid rgb(223, 211, 211);
+    outline: none;
+}
+.form-child input::placeholder{
+    color: black;
+    position: absolute;
+    left: 1px;
+    font-size:medium;
+}
+.create-account{
+    position: relative;
+    top: 20px;
+    padding: 13px 110px;
+    right: 40px;
+}
+.have-login{
+    position: absolute;
+    top: 60px;
+    width:300px;
+    left: 34px;
+}
+.have-login span {
+    color:rgb(249, 165, 26) ;
+    border-bottom: 1px solid rgb(249, 165, 26);
+}
+/* from section end */
