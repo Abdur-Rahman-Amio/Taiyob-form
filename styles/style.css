@@ -81,7 +81,8 @@ h1,h2,h3,h4,h5,h6,a,ul,li,img{
     margin-top: 15px;
 }
 .form-child input{
-    padding: 20px 80px;
+    padding: 20px 0px;
+    width: 326px;
     border: none;
     border-bottom: 2px solid rgb(223, 211, 211);
     outline: none;
